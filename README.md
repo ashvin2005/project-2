@@ -1,7 +1,9 @@
 🛒 Modern E-commerce Website
+
 This is a modern e-commerce web application built with Next.js, React, and Tailwind CSS. It offers a sleek, dark-themed user interface and a smooth shopping experience across all devices.
 
 🚀 Getting Started
+
 To run the development server:
 
 bash
