@@ -4,14 +4,15 @@ import path from 'path';
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params;
     const filePath = path.join(process.cwd(), 'data', 'products.json');
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const products = JSON.parse(fileContents);
     
-    const product = products.find((p: any) => p.id === parseInt(params.id));
+    const product = products.find((p: any) => p.id === parseInt(id));
     
     if (!product) {
       return NextResponse.json({ error: 'Product not found' }, { status: 404 });
