@@ -1,10 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🛒 Modern E-commerce Website
+This is a modern e-commerce web application built with Next.js, React, and Tailwind CSS. It offers a sleek, dark-themed user interface and a smooth shopping experience across all devices.
 
-## Getting Started
+🚀 Getting Started
+To run the development server:
 
-First, run the development server:
-
-```bash
+bash
+Copy
+Edit
 npm run dev
 # or
 yarn dev
@@ -12,25 +14,49 @@ yarn dev
 pnpm dev
 # or
 bun run dev
-```
+Open http://localhost:3000 in your browser to see the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✨ Features
+Modern Storefront
+Premium dark-themed UI for a stylish shopping experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Product Search & Filtering
+Search by name, description, or tags. Filter products by category.
 
-## Learn More
+Product Detail Pages
+View full product descriptions, images, pricing, and availability.
 
-To learn more about Next.js, take a look at the following resources:
+Special Offers & Discounts
+Highlighted deals and offers on a dedicated promotions page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Shopping Cart
+Add, remove, and update product quantities. Cart state is persisted across sessions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Checkout Flow
+Seamless checkout with delivery details and mock payment handling.
 
-## Deploy on Vercel
+Order History
+Logged-in users can view past orders with real-time status tracking.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+User Authentication
+Local storage-based mock authentication (Sign Up / Login / Logout).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Multi-language Support
+Switch UI between English and Hindi for key site elements.
+
+Customer Support Chat
+Integrated support widget for direct customer assistance.
+
+Responsive Design
+Mobile-first design ensuring usability on all screen sizes.
+
+Optimized Performance
+Built with Next.js App Router, dynamic imports, and next/font for font optimization.
+
+📦 Tech Stack
+Framework: Next.js
+
+UI: React + Tailwind CSS
+
+Font Optimization: next/font
