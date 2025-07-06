@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Header from '@/components/Header';
 import ProductCard from '@/components/ProductCard';
 import { Product } from '@/contexts/CartContext';
@@ -20,23 +20,7 @@ export default function Home() {
     fetchProducts();
   }, []);
 
-  useEffect(() => {
-    filterProducts();
-  }, [products, searchQuery, selectedCategory]);
-
-  const fetchProducts = async () => {
-    try {
-      const response = await fetch('/api/products');
-      const data = await response.json();
-      setProducts(data);
-      setLoading(false);
-    } catch (error) {
-      console.error('Error fetching products:', error);
-      setLoading(false);
-    }
-  };
-
-  const filterProducts = () => {
+  const filterProducts = useCallback(() => {
     let filtered = products;
 
     // Filter by search query
@@ -54,6 +38,22 @@ export default function Home() {
     }
 
     setFilteredProducts(filtered);
+  }, [products, searchQuery, selectedCategory]);
+
+  useEffect(() => {
+    filterProducts();
+  }, [filterProducts]);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch('/api/products');
+      const data = await response.json();
+      setProducts(data);
+      setLoading(false);
+    } catch (error) {
+      console.error('Error fetching products:', error);
+      setLoading(false);
+    }
   };
 
   const categories = ['All', ...Array.from(new Set(products.map(p => p.category)))];
