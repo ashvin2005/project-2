@@ -20,7 +20,7 @@ export default function CartPage() {
             <ShoppingBagIcon className="h-24 w-24 text-gray-300 mx-auto mb-6" />
             <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('yourCartIsEmpty')}</h2>
             <p className="text-gray-600 mb-8">
-              Looks like you haven't added any items to your cart yet.
+              Looks like you haven&apos;t added any items to your cart yet.
             </p>
             <Link
               href="/"

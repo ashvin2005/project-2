@@ -58,7 +58,7 @@ export default function OffersPage() {
               Special Offers
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Don't miss out on these amazing deals! Limited time offers with huge discounts.
+              Don&apos;t miss out on these amazing deals! Limited time offers with huge discounts.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="flex items-center bg-white rounded-full px-4 py-2 shadow-lg">

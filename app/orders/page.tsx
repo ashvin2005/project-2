@@ -154,7 +154,7 @@ export default function OrdersPage() {
             <ShoppingBagIcon className="h-24 w-24 text-gray-300 mx-auto mb-6" />
             <h2 className="text-2xl font-bold text-gray-900 mb-4">No orders yet</h2>
             <p className="text-gray-600 mb-8">
-              You haven't placed any orders yet. Start shopping to see your orders here.
+              You haven&apos;t placed any orders yet. Start shopping to see your orders here.
             </p>
           </div>
         ) : (
