@@ -1,14 +1,13 @@
-🛒 Modern E-commerce Website
 
-This is a modern e-commerce web application built with Next.js, React, and Tailwind CSS. It offers a sleek, dark-themed user interface and a smooth shopping experience across all devices.
+# 🛒 Modern E-commerce Website
 
-🚀 Getting Started
+This is a modern e-commerce web application built with [Next.js](https://nextjs.org/), React, and Tailwind CSS. It offers a sleek, dark-themed user interface and a smooth shopping experience across all devices.
+
+## 🚀 Getting Started
 
 To run the development server:
 
-bash
-Copy
-Edit
+```bash
 npm run dev
 # or
 yarn dev
@@ -16,49 +15,64 @@ yarn dev
 pnpm dev
 # or
 bun run dev
-Open http://localhost:3000 in your browser to see the app.
+````
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
 
-✨ Features
-Modern Storefront
-Premium dark-themed UI for a stylish shopping experience.
+## ✨ Features
 
-Product Search & Filtering
-Search by name, description, or tags. Filter products by category.
+* **Modern Storefront**
+  
+  Premium dark-themed UI for a stylish shopping experience.
 
-Product Detail Pages
-View full product descriptions, images, pricing, and availability.
+* **Product Search & Filtering**
+  
+  Search by name, description, or tags. Filter products by category.
 
-Special Offers & Discounts
-Highlighted deals and offers on a dedicated promotions page.
+* **Product Detail Pages**
+  
+  View full product descriptions, images, pricing, and availability.
 
-Shopping Cart
-Add, remove, and update product quantities. Cart state is persisted across sessions.
+* **Special Offers & Discounts**
+  
+  Highlighted deals and offers on a dedicated promotions page.
 
-Checkout Flow
-Seamless checkout with delivery details and mock payment handling.
+* **Shopping Cart**
+  
+  Add, remove, and update product quantities. Cart state is persisted across sessions.
 
-Order History
-Logged-in users can view past orders with real-time status tracking.
+* **Checkout Flow**
+  
+  Seamless checkout with delivery details and mock payment handling.
 
-User Authentication
-Local storage-based mock authentication (Sign Up / Login / Logout).
+* **Order History**
+  
+  Logged-in users can view past orders with real-time status tracking.
 
-Multi-language Support
-Switch UI between English and Hindi for key site elements.
+* **User Authentication**
+  
+  Local storage-based mock authentication (Sign Up / Login / Logout).
 
-Customer Support Chat
-Integrated support widget for direct customer assistance.
+* **Multi-language Support**
+  
+  Switch UI between English and Hindi for key site elements.
 
-Responsive Design
-Mobile-first design ensuring usability on all screen sizes.
+* **Customer Support Chat**
+  
+  Integrated support widget for direct customer assistance.
 
-Optimized Performance
-Built with Next.js App Router, dynamic imports, and next/font for font optimization.
+* **Responsive Design**
+  
+  Mobile-first design ensuring usability on all screen sizes.
 
-📦 Tech Stack
-Framework: Next.js
+* **Optimized Performance**
+  
+  Built with Next.js App Router, dynamic imports, and [next/font](https://nextjs.org/docs/basic-features/font-optimization) for font optimization.
 
-UI: React + Tailwind CSS
+## 📦 Tech Stack
 
-Font Optimization: next/font
+* **Framework:** [Next.js](https://nextjs.org/)
+* **UI:** React + Tailwind CSS
+* **Font Optimization:** [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
+
