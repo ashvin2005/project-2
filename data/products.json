@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 5459,
+    "originalPrice": 6999,
+    "discount": 22,
+    "description": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and crystal-clear audio quality. Perfect for music lovers and professionals.",
+    "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Electronics",
+    "tags": ["wireless", "bluetooth", "headphones", "audio", "noise-cancellation"]
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "price": 2999,
+    "originalPrice": 3999,
+    "discount": 25,
+    "description": "Advanced fitness tracker with heart rate monitoring, GPS, sleep tracking, and 7-day battery life. Water-resistant design perfect for all activities.",
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Electronics",
+    "tags": ["fitness", "smartwatch", "health", "tracking", "gps"]
+  },
+  {
+    "id": 3,
+    "name": "Minimalist Leather Wallet",
+    "price": 3699,
+    "description": "Handcrafted genuine leather wallet with RFID blocking technology. Slim design holds up to 8 cards and cash. Available in multiple colors.",
+    "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Accessories",
+    "tags": ["leather", "wallet", "minimalist", "rfid", "handcrafted"]
+  },
+  {
+    "id": 4,
+    "name": "Organic Cotton T-Shirt",
+    "price": 599,
+    "description": "Soft, breathable organic cotton t-shirt with a comfortable fit. Sustainably made and available in various sizes and colors.",
+    "image": "https://images.pexels.com/photos/9558567/pexels-photo-9558567.jpeg",
+    "category": "Clothing",
+    "tags": ["organic", "cotton", "t-shirt", "sustainable", "comfortable"]
+  },
+  {
+    "id": 5,
+    "name": "Stainless Steel Water Bottle",
+    "price": 999,
+    "description": "Double-wall insulated stainless steel water bottle keeps drinks cold for 24 hours or hot for 12 hours. BPA-free and leak-proof design.",
+    "image": "https://images.pexels.com/photos/11031192/pexels-photo-11031192.png",
+    "category": "Home",
+    "tags": ["water bottle", "insulated", "stainless steel", "eco-friendly", "bpa-free"]
+  },
+  {
+    "id": 6,
+    "name": "Wireless Phone Charger",
+    "price": 1999,
+    "originalPrice": 2499,
+    "discount": 20,
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Sleek design with LED indicator and overcharge protection.",
+    "image": "https://images.pexels.com/photos/7742585/pexels-photo-7742585.jpeg",
+    "category": "Electronics",
+    "tags": ["wireless", "charger", "phone", "qi", "fast-charging"]
+  },
+  {
+    "id": 7,
+    "name": "Ceramic Coffee Mug Set",
+    "price": 1499,
+    "description": "Set of 4 handcrafted ceramic coffee mugs with unique glazed finish. Microwave and dishwasher safe. Perfect for your morning coffee ritual.",
+    "image": "https://images.pexels.com/photos/16576782/pexels-photo-16576782.jpeg",
+    "category": "Home",
+    "tags": ["ceramic", "coffee", "mug", "handcrafted", "set"]
+  },
+  {
+    "id": 8,
+    "name": "Bluetooth Portable Speaker",
+    "price": 3799,
+    "description": "Compact portable speaker with 360-degree sound, 12-hour battery life, and waterproof design. Perfect for outdoor adventures.",
+    "image": "https://images.pexels.com/photos/9767551/pexels-photo-9767551.jpeg",
+    "category": "Electronics",
+    "tags": ["bluetooth", "speaker", "portable", "waterproof", "360-sound"]
+  },
+  {
+    "id": 9,
+    "name": "Premium Skincare Set",
+    "price": 5999,
+    "originalPrice": 7999,
+    "discount": 25,
+    "description": "Complete skincare routine with cleanser, toner, serum, and moisturizer. Made with natural ingredients for all skin types.",
+    "image": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Beauty",
+    "tags": ["skincare", "natural", "beauty", "routine", "premium"]
+  },
+  {
+    "id": 10,
+    "name": "Yoga Mat with Carrying Strap",
+    "price": 499,
+    "description": "Non-slip yoga mat made from eco-friendly materials. Includes carrying strap and alignment guides for perfect poses.",
+    "image": "https://images.pexels.com/photos/6303490/pexels-photo-6303490.jpeg",
+    "category": "Sports",
+    "tags": ["yoga", "mat", "eco-friendly", "non-slip", "fitness"]
+  },
+  {
+    "id": 11,
+    "name": "Smart LED Desk Lamp",
+    "price": 1299,
+    "description": "Adjustable LED desk lamp with touch controls, USB charging port, and multiple brightness levels. Perfect for work and study.",
+    "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Home",
+    "tags": ["led", "desk lamp", "smart", "adjustable", "usb"]
+  },
+  {
+    "id": 12,
+    "name": "Denim Jacket",
+    "price": 1999,
+    "description": "Classic denim jacket with modern fit. Made from premium cotton denim with vintage wash finish. Perfect for layering.",
+    "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg",
+    "category": "Clothing",
+    "tags": ["denim", "jacket", "classic", "cotton", "vintage"]
+  },
+  {
+    "id": 13,
+    "name": "Wireless Gaming Mouse",
+    "price": 1799,
+    "originalPrice": 2999,
+    "discount": 40,
+    "description": "High-precision wireless gaming mouse with RGB lighting, programmable buttons, and 50-hour battery life.",
+    "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Electronics",
+    "tags": ["gaming", "mouse", "wireless", "rgb", "precision"]
+  },
+  {
+    "id": 14,
+    "name": "Aromatherapy Diffuser",
+    "price": 2799,
+    "description": "Ultrasonic essential oil diffuser with color-changing LED lights. Creates a relaxing atmosphere for your home or office.",
+    "image": "https://images.pexels.com/photos/6915312/pexels-photo-6915312.jpeg",
+    "category": "Home",
+    "tags": ["aromatherapy", "diffuser", "essential oils", "led", "relaxation"]
+  },
+  {
+    "id": 15,
+    "name": "Lip Balm Set",
+    "price": 699,
+    "description": "Set of 3 natural lip balms with different flavors. Made with organic ingredients to keep your lips soft and moisturized.",
+    "image": "https://images.pexels.com/photos/29306290/pexels-photo-29306290.jpeg",
+    "category": "Beauty",
+    "tags": ["lip balm", "natural", "organic", "moisturizing", "set"]
+  },
+  {
+    "id": 16,
+    "name": "Running Shoes",
+    "price": 2999,
+    "originalPrice": 4999,
+    "discount": 40,
+    "description": "Lightweight running shoes with advanced cushioning technology. Breathable mesh upper and durable rubber sole.",
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Sports",
+    "tags": ["running", "shoes", "lightweight", "cushioning", "breathable"]
+  },
+  {
+    "id": 17,
+    "name": "Cookbook Collection",
+    "price": 1999,
+    "description": "Set of 3 bestselling cookbooks featuring international cuisines. Over 300 recipes with step-by-step instructions.",
+    "image": "https://images.pexels.com/photos/4846276/pexels-photo-4846276.jpeg",
+    "category": "Books",
+    "tags": ["cookbook", "recipes", "cooking", "international", "collection"]
+  },
+  {
+    "id": 18,
+    "name": "Smartphone Stand",
+    "price": 1299,
+    "description": "Adjustable aluminum smartphone stand compatible with all phone sizes. Perfect for video calls, watching videos, and hands-free use.",
+    "image": "https://images.pexels.com/photos/7777114/pexels-photo-7777114.jpeg",
+    "category": "Electronics",
+    "tags": ["smartphone", "stand", "aluminum", "adjustable", "hands-free"]
+  },
+  {
+    "id": 19,
+    "name": "Silk Scarf",
+    "price": 899,
+    "description": "Luxurious silk scarf with elegant floral pattern. Soft and lightweight, perfect for adding style to any outfit.",
+    "image": "https://images.pexels.com/photos/27230001/pexels-photo-27230001.png",
+    "category": "Accessories",
+    "tags": ["silk", "scarf", "luxurious", "floral", "elegant"]
+  },
+  {
+    "id": 20,
+    "name": "Plant Pot Set",
+    "price": 499,
+    "description": "Set of 3 ceramic plant pots with drainage holes and saucers. Perfect for indoor plants and herbs.",
+    "image": "https://images.pexels.com/photos/18063064/pexels-photo-18063064.jpeg",
+    "category": "Home",
+    "tags": ["plant pot", "ceramic", "drainage", "indoor", "set"]
+  },
+  {
+    "id": 21,
+    "name": "Face Mask Set",
+    "price": 1599,
+    "originalPrice": 1999,
+    "discount": 20,
+    "description": "Pack of 10 hydrating face masks with natural ingredients. Suitable for all skin types and provides deep moisturization.",
+    "image": "https://images.pexels.com/photos/6543670/pexels-photo-6543670.jpeg",
+    "category": "Beauty",
+    "tags": ["face mask", "hydrating", "natural", "moisturizing", "skincare"]
+  },
+  {
+    "id": 22,
+    "name": "Resistance Bands Set",
+    "price": 999,
+    "description": "Complete resistance bands set with 5 different resistance levels. Includes door anchor, handles, and ankle straps.",
+    "image": "https://images.pexels.com/photos/5067745/pexels-photo-5067745.jpeg",
+    "category": "Sports",
+    "tags": ["resistance bands", "fitness", "workout", "home gym", "exercise"]
+  },
+  {
+    "id": 23,
+    "name": "Mystery Novel Collection",
+    "price": 2499,
+    "description": "Collection of 5 bestselling mystery novels from renowned authors. Perfect for thriller and mystery enthusiasts.",
+    "image": "https://images.pexels.com/photos/1666320/pexels-photo-1666320.jpeg",
+    "category": "Books",
+    "tags": ["mystery", "novel", "thriller", "bestselling", "collection"]
+  },
+  {
+    "id": 24,
+    "name": "Wireless Earbuds",
+    "price": 4999,
+    "originalPrice": 6999,
+    "discount": 29,
+    "description": "True wireless earbuds with noise cancellation and 24-hour battery life. IPX7 waterproof rating for sports and workouts.",
+    "image": "https://images.pexels.com/photos/3780680/pexels-photo-3780680.jpeg",
+    "category": "Electronics",
+    "tags": ["wireless", "earbuds", "noise cancellation", "waterproof", "sports"]
+  },
+  {
+    "id": 25,
+    "name": "Casual Sneakers",
+    "price": 3999,
+    "description": "Comfortable casual sneakers with memory foam insole. Versatile design suitable for everyday wear and light activities.",
+    "image": "https://images.pexels.com/photos/32856293/pexels-photo-32856293.jpeg",
+    "category": "Clothing",
+    "tags": ["sneakers", "casual", "memory foam", "comfortable", "everyday"]
+  },
+  {
+    "id": 26,
+    "name": "Essential Oil Set",
+    "price": 3499,
+    "description": "Set of 6 pure essential oils including lavender, eucalyptus, peppermint, and more. Perfect for aromatherapy and relaxation.",
+    "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Beauty",
+    "tags": ["essential oils", "aromatherapy", "pure", "relaxation", "natural"]
+  },
+  {
+    "id": 27,
+    "name": "Camping Backpack",
+    "price": 6999,
+    "originalPrice": 8999,
+    "discount": 22,
+    "description": "Durable 50L camping backpack with multiple compartments, rain cover, and ergonomic design. Perfect for hiking and outdoor adventures.",
+    "image": "https://images.pexels.com/photos/31438937/pexels-photo-31438937.jpeg",
+    "category": "Sports",
+    "tags": ["camping", "backpack", "hiking", "outdoor", "durable"]
+  },
+  {
+    "id": 28,
+    "name": "Self-Help Book Bundle",
+    "price": 1999,
+    "description": "Bundle of 3 popular self-help books focusing on productivity, mindfulness, and personal growth.",
+    "image": "https://images.pexels.com/photos/2228557/pexels-photo-2228557.jpeg",
+    "category": "Books",
+    "tags": ["self-help", "productivity", "mindfulness", "personal growth", "bundle"]
+  },
+  {
+    "id": 29,
+    "name": "Smart Home Hub",
+    "price": 4999,
+    "description": "Voice-controlled smart home hub compatible with all major smart devices. Control lights, temperature, and security from anywhere.",
+    "image": "https://images.pexels.com/photos/14309808/pexels-photo-14309808.jpeg",
+    "category": "Electronics",
+    "tags": ["smart home", "hub", "voice control", "automation", "iot"]
+  },
+  {
+    "id": 30,
+    "name": "Leather Handbag",
+    "price": 7999,
+    "originalPrice": 9999,
+    "discount": 20,
+    "description": "Elegant leather handbag with multiple compartments and adjustable strap. Perfect for work and casual occasions.",
+    "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "category": "Accessories",
+    "tags": ["leather", "handbag", "elegant", "compartments", "adjustable"]
+  },
+  {
+    "id": 31,
+    "name": "Kitchen Knife Set",
+    "price": 499,
+    "description": "Professional 8-piece kitchen knife set with wooden block. High-carbon stainless steel blades for precision cutting.",
+    "image": "https://images.pexels.com/photos/3827668/pexels-photo-3827668.jpeg",
+    "category": "Home",
+    "tags": ["kitchen", "knife set", "professional", "stainless steel", "precision"]
+  },
+  {
+    "id": 32,
+    "name": "Vitamin C Serum",
+    "price": 1999,
+    "description": "Anti-aging vitamin C serum with hyaluronic acid. Brightens skin and reduces fine lines for a youthful glow.",
+    "image": "https://images.pexels.com/photos/31103342/pexels-photo-31103342.jpeg",
+    "category": "Beauty",
+    "tags": ["vitamin c", "serum", "anti-aging", "hyaluronic acid", "brightening"]
+  },
+  {
+    "id": 33,
+    "name": "Basketball",
+    "price": 1299,
+    "description": "Official size basketball with superior grip and bounce. Perfect for indoor and outdoor play.",
+    "image": "https://images.pexels.com/photos/945471/pexels-photo-945471.jpeg",
+    "category": "Sports",
+    "tags": ["basketball", "official size", "grip", "indoor", "outdoor"]
+  },
+  {
+    "id": 34,
+    "name": "Programming Books Set",
+    "price": 4999,
+    "originalPrice": 6999,
+    "discount": 29,
+    "description": "Complete set of 4 programming books covering Python, JavaScript, React, and algorithms. Perfect for developers.",
+    "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+    "category": "Books",
+    "tags": ["programming", "python", "javascript", "react", "algorithms"]
+  },
+  {
+    "id": 35,
+    "name": "Tablet Stand",
+    "price": 1299,
+    "description": "Adjustable tablet stand made from premium aluminum. Compatible with all tablet sizes and perfect for video calls.",
+    "image": "https://images.pexels.com/photos/8001038/pexels-photo-8001038.jpeg",
+    "category": "Electronics",
+    "tags": ["tablet", "stand", "aluminum", "adjustable", "video calls"]
+  },
+  {
+    "id": 36,
+    "name": "Winter Coat",
+    "price": 3999,
+    "description": "Warm winter coat with down insulation and water-resistant exterior. Features multiple pockets and removable hood.",
+    "image": "https://images.pexels.com/photos/1381553/pexels-photo-1381553.jpeg",
+    "category": "Clothing",
+    "tags": ["winter", "coat", "down insulation", "water-resistant", "warm"]
+  },
+  {
+    "id": 37,
+    "name": "Decorative Candles Set",
+    "price": 2499,
+    "description": "Set of 6 scented decorative candles with different fragrances. Made from natural soy wax with 40-hour burn time each.",
+    "image": "https://images.pexels.com/photos/562842/pexels-photo-562842.jpeg",
+    "category": "Home",
+    "tags": ["candles", "scented", "decorative", "soy wax", "natural"]
+  },
+  {
+    "id": 38,
+    "name": "Hair Care Set",
+    "price": 3999,
+    "originalPrice": 4999,
+    "discount": 20,
+    "description": "Complete hair care set with shampoo, conditioner, and hair mask. Suitable for all hair types and enriched with natural oils.",
+    "image": "https://images.pexels.com/photos/8467960/pexels-photo-8467960.jpeg",
+    "category": "Beauty",
+    "tags": ["hair care", "shampoo", "conditioner", "hair mask", "natural oils"]
+  },
+  {
+    "id": 39,
+    "name": "Tennis Racket",
+    "price": 2999,
+    "description": "Professional tennis racket with graphite frame and comfortable grip. Perfect for intermediate to advanced players.",
+    "image": "https://images.pexels.com/photos/10340621/pexels-photo-10340621.jpeg",
+    "category": "Sports",
+    "tags": ["tennis", "racket", "graphite", "professional", "comfortable"]
+  },
+  {
+    "id": 40,
+    "name": "Fiction Novel Collection",
+    "price": 3499,
+    "description": "Collection of 6 award-winning fiction novels from contemporary authors. Perfect for book lovers and literature enthusiasts.",
+    "image": "https://images.pexels.com/photos/159778/books-reading-series-narnia-159778.jpeg",
+    "category": "Books",
+    "tags": ["fiction", "novel", "award-winning", "contemporary", "literature"]
+  }
+]
